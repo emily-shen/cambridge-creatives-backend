@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_subheadings",
+  "info": {
+    "displayName": "Subheading",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string"
+    }
+  }
+}

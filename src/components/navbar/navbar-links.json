@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navbar_navbar_links",
+  "info": {
+    "displayName": "Navbar Links",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "display_text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

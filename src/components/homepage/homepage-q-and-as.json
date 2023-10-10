@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_homepage_q_and_as",
+  "info": {
+    "displayName": "Homepage Q and As",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "interview": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::interview.interview"
+    }
+  }
+}

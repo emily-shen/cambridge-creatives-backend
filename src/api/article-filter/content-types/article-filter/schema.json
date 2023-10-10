@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_filters",
+  "info": {
+    "singularName": "article-filter",
+    "pluralName": "article-filters",
+    "displayName": "Article Filter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "article_filters"
+    }
+  }
+}

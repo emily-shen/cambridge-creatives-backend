@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interviews",
+  "info": {
+    "singularName": "interview",
+    "pluralName": "interviews",
+    "displayName": "Interview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "interviewee": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "interview_filters": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::interview-filter.interview-filter",
+      "mappedBy": "interviews"
+    },
+    "occupation": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "maxLength": 350,
+      "required": true
+    },
+    "publish_date": {
+      "type": "date",
+      "required": true,
+      "default": "2023-09-21"
+    }
+  }
+}

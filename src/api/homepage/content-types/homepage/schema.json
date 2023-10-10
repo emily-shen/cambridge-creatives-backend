@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_text": {
+      "type": "richtext"
+    },
+    "homepage_articles": {
+      "displayName": "Homepage Articles",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.homepage-articles"
+    },
+    "homepage_qandas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.homepage-q-and-as"
+    },
+    "hero": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "qanda_title": {
+      "type": "string"
+    },
+    "qanda_description": {
+      "type": "text"
+    },
+    "article_title": {
+      "type": "string"
+    },
+    "article_description": {
+      "type": "text"
+    },
+    "event_description": {
+      "type": "text"
+    },
+    "event_option": {
+      "displayName": "Event title options",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.event-title-options"
+    }
+  }
+}

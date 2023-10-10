@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_content_dropdowns",
+  "info": {
+    "displayName": "Dropdown",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "dropdown_content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

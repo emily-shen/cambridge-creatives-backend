@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_body_texts",
+  "info": {
+    "displayName": "Body Text",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

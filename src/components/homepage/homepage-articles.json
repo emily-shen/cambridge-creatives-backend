@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homepage_homepage_articles",
+  "info": {
+    "displayName": "Homepage Articles",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}

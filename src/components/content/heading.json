@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

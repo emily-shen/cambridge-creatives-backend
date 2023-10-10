@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "committee_members",
+  "info": {
+    "singularName": "committee-member",
+    "pluralName": "committee-members",
+    "displayName": "Committee Member"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "pronouns": {
+      "type": "string"
+    },
+    "past_committee": {
+      "type": "boolean"
+    },
+    "bio": {
+      "type": "richtext",
+      "maxLength": 400
+    },
+    "year": {
+      "default": 2022,
+      "type": "integer"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

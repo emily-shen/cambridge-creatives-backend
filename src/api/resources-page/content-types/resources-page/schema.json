@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "resources_pages",
+  "info": {
+    "singularName": "resources-page",
+    "pluralName": "resources-pages",
+    "displayName": "Resources Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_description": {
+      "type": "text"
+    },
+    "article_filters": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article-filter.article-filter"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_homepage_event_title_options",
+  "info": {
+    "displayName": "Event title options"
+  },
+  "options": {},
+  "attributes": {
+    "event_option": {
+      "type": "string"
+    }
+  }
+}

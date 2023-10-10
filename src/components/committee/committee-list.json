@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_committee_committee_lists",
+  "info": {
+    "displayName": "Committee List",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "committee_members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::committee-member.committee-member"
+    }
+  }
+}

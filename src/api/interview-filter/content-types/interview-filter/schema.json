@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interview_filters",
+  "info": {
+    "singularName": "interview-filter",
+    "pluralName": "interview-filters",
+    "displayName": "Interview Filter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "interviews": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::interview.interview",
+      "inversedBy": "interview_filters"
+    }
+  }
+}
